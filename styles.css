@@ -70,7 +70,7 @@ ul > li > a{
     padding:6px 25px;
     border-radius:10px;
     align-self:start;
-}
+    font-weight:bold;}
 
 .header-info h1{
     color:#f9faf8;
@@ -95,7 +95,7 @@ ul > li > a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     background-color: white;
 }
 
@@ -127,3 +127,65 @@ ul > li > a{
     border-radius: 20px;
 }
 
+/*QUOTE*/
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:100px 350px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic; 
+    color:#1F2937;
+    font-weight: lighter;
+}
+
+.quote-author{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*CALL TO ACTION*/
+.call-to-action{
+    background-color: #3882F6;
+    margin: 50px 300px;
+    display:flex;
+    padding: 50px;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.call-to-action button{
+    background-color: #3882F6;
+    color:#f9faf8;
+    border: 2px solid #f9faf8;
+    padding:5px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.left-call-to-action h3{
+    color:#f9faf8;
+    margin-bottom: 5px;
+}
+
+.left-call-to-action p{
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #1F2937;
+    color:#f9faf8;
+    padding:30px;
+    text-align: center;
+    align-content: center;
+}
